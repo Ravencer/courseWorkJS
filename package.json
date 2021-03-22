@@ -1,0 +1,26 @@
+{
+  "name": "courseworkjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravencer/courseWorkJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravencer/courseWorkJS/issues"
+  },
+  "homepage": "https://github.com/Ravencer/courseWorkJS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.27.1",
+    "webpack-cli": "^4.5.0"
+  }
+}
