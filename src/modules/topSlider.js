@@ -5,7 +5,6 @@ const topSlider = () => {
 
 	let currentSlide = 0,
 		interval;
-	console.log(dots);
 	const addDots = slides => {
 		for (let i = 0; i < slides.length; i++) {
 			if (i === 0) {
@@ -22,7 +21,6 @@ const topSlider = () => {
 	addDots(slide);
 
 	const dot = document.querySelectorAll('.slick-dots li');
-	console.log(dot);
 	const prevSlide = (elem, index, strClass) => {
 		elem[index].classList.remove(strClass);
 	};
