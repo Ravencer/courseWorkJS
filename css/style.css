@@ -1233,3 +1233,15 @@ video#video_background {
 	}
 }
 /**** /. services section *****/
+.slider-item{
+	opacity: 0;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+	display: none;
+}
+.slider-item--active{
+	opacity: 1;
+  -webkit-transition: opacity .5s;
+  transition: opacity .5s;
+	display: block;
+}
