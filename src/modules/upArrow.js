@@ -10,8 +10,6 @@ const upArrow = () => {
 	});
 	arrowElem.addEventListener('click', e => {
 		e.preventDefault();
-		const anchorPath = document.querySelector('#header');
-		console.log(anchorPath);
 		document.body.scrollIntoView({
 			behavior: 'smooth',
 			alignToTop: true

@@ -1,7 +1,6 @@
 const popUp = () => {
 	const modalCallback = document.querySelector('.modal-callback'),
 		modalOverlay = document.querySelector('.modal-overlay');
-
 	const popUpToggle = elem => {
 		if (elem && (elem.classList.contains('callback-btn') || elem.classList.contains('button-services'))) {
 			modalCallback.style.display = 'block';
@@ -13,7 +12,6 @@ const popUp = () => {
 	};
 
 	document.body.addEventListener('click', e => {
-		e.preventDefault();
 		popUpToggle(e.target);
 	});
 
