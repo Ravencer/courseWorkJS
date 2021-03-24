@@ -3,7 +3,7 @@ const popUp = () => {
 		modalOverlay = document.querySelector('.modal-overlay');
 
 	const popUpToggle = elem => {
-		if (elem && elem.classList.contains('callback-btn')) {
+		if (elem && (elem.classList.contains('callback-btn') || elem.classList.contains('button-services'))) {
 			modalCallback.style.display = 'block';
 			modalOverlay.style.display = 'block';
 		} else if (elem && (elem.closest('.modal-close') || elem.classList.contains('modal-overlay'))) {
