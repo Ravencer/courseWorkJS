@@ -4,7 +4,9 @@ const accordeon = () => {
 	const toggleElements = e => {
 		const target = e.target.closest('.element');
 		if (target && target.classList.contains('active')) {
+			const itemContent = target.querySelector('.element-content');
 			target.classList.remove('active');
+			itemContent.style.display = 'none';
 		} else if (target && !target.classList.contains('active')) {
 			accordeonItems.forEach(elem => {
 				const itemContent = elem.querySelector('.element-content');
