@@ -3,6 +3,8 @@ import anchorLinks from './modules/anchorLinks';
 import topSlider from './modules/topSlider';
 import sliderCarousel from './modules/sliderCarousel';
 import accordeon from './modules/accordeon';
+import upArrow from './modules/upArrow';
+upArrow();
 popUp();
 anchorLinks();
 topSlider();
